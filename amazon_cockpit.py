@@ -13,6 +13,7 @@ menu_items = ["Quit",
               "Pause ",
               "Resume",
               "Stop",
+              "Get Status"
               "Show Live"]
 
 welcome_message = "*** Welcome to the cockpit of amazon scraper ***"
@@ -80,6 +81,8 @@ while True:
         start_scraper()
     elif selection == 4:
         stop_scraper()
+    elif selection == 5:
+        get_scraper_status()
     else:
         print "you have selected " +  menu_items[selection]
     
