@@ -77,7 +77,9 @@ while True:
         print farewell_message
         break
     elif selection == 1:
-        pass
+        start_scraper()
+    elif selection == 4:
+        stop_scraper()
     else:
         print "you have selected " +  menu_items[selection]
     
